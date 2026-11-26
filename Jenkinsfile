@@ -15,7 +15,7 @@ pipeline {
 
         stage('2. Application Build & Test') {
             steps {
-                bat 'C:\\Users\\VVCE\\AppData\\Local\\Programs\\Python\\Python311\\python.exe app.py'
+               bat 'python app.py'
             }
         }
 
